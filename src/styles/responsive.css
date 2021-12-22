@@ -1,0 +1,98 @@
+@media screen and (min-width: 700px) {
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .nav {
+        z-index: 10;
+        background-color: #1b2021;
+        width: 200px;
+        position: absolute;
+
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-200px, 0);
+        transform: translate(-200px, 0);
+
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .nav_item {
+        display: list-item;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .nav_list {
+        width: 100%;
+    }
+
+    .logo {
+        padding-left: 0;
+        width: auto;
+        
+    }
+
+    .nav .logo {
+        display: none;
+    }
+
+    .hero {
+        min-height: 300px;
+        background-image: url("/images/heros/hero-image_4-small.jpg");
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .menumob {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 410px) {
+    .hero_title {
+        font-size: 35px;
+    }
+    
+    .hero_tagline {
+        font-size: 17px;
+    }
+
+    .latest_label {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .hero_title {
+        font-size: 50px;
+    }
+    
+    .hero_tagline {
+        font-size: 24px;
+    }
+}

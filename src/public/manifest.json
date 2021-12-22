@@ -1,0 +1,47 @@
+{
+    "name": "Resta Apps Lite",
+    "short_name": "Resta Lite",
+    "description": "Free restaurant catalogue for you",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#845460",
+    "icons": [
+      {
+        "src": "/icons/icon-51x51.png",
+        "sizes": "51x51",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/icon-90x90.png",
+        "sizes": "90x90",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/icon-166x166.png",
+        "sizes": "166x166",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/icon-205x205.png",
+        "sizes": "205x205",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/icon-128x128.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+}
