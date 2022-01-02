@@ -8,7 +8,7 @@
 -   Webpack
 -   PWA
 -   Testing and optimized
--   API: [RestaurantAPI]()
+-   API: [RestaurantAPI](https://restaurant-api.dicoding.dev)
 
 ### Cara Menjalankan Project
 
